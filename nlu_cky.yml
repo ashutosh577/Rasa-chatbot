@@ -98,3 +98,32 @@ nlu:
   -Can my kid get a chance in Google or Microsoft?
   -Can my kid get a chance in Google for paid internship?
   -Can my kid get a chance in Microsoft for paid internship?
+  
+  -intent: Python_easy
+  examples:
+  -Is python easy to learn?
+  
+  -intent: About_python
+  examples:
+  -what is Python?
+  -Why Python is popular language?
+  
+  -intent: Interest
+  examples:
+ -Is python easier than C?
+ -Is python easier than C++?
+ -Is python easier than Java?
+ -Is python easier than HTML?
+ -Is python easier than C++?
+ -Is python easier than Java?
+ -It depends on the interest of an individual.
+ 
+ -intents: Future_python
+ examples:
+ -Is Python programming used in industries?
+ -Is Python programming used in industries for development?
+ -Is Python the future?
+ -What can my kid do with Python?
+ -Why to enroll for Python course?
+  
+  
