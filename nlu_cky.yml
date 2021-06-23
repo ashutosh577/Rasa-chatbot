@@ -136,6 +136,8 @@ nlu:
     - why should I consider learning python programming language before machine learning? and not C, C++ or java 
     - How useful is python
     - Why is Python good for kids?
+    - How Python for Kids Promotes Algorithmic Thinking in Students?
+ 
 
    
 
@@ -177,6 +179,9 @@ nlu:
 -intents: Programming_Language
  examples: |
    - What programming languages would be taught?
+   - Which programming language you should prefer for beginner?
+   - which programming language has wide scope?
+
 
 -intents: Use_of_c++_and_HTML
  examples:  |
@@ -238,8 +243,10 @@ nlu:
 -intents: About_course_enrollment
  examples:
    - 
-   
-   
+ -intents: About_PHP
+ examples: |
+    - What is PHP language?
+
    
    
    
@@ -560,6 +567,8 @@ nlu:
    examples:  |
        - If my child has a technical issue or question, how does she contact your online instructors?
        - Im stuck, can I skip a challenge?
+       - How is python used for designing mobile application?
+
        
 - intent: coding_importance
    examples: |
@@ -768,6 +777,7 @@ nlu:
   examples: |
     -why should I choose codeKaroYaro? 
     - How is this distinct from other online programs ?
+    - How is CKY better than other platforms?
 
 
 - intent: expirience
@@ -1014,6 +1024,8 @@ nlu:
     - What is code karo Yaro?
     - In which year code karo yaaro was founded ?
     - who is the founder of code karo yaaro ?
+    
+
  
 - intent: Upgrade_course
   examples:  |
