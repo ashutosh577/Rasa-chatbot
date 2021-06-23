@@ -476,7 +476,44 @@ steps:
 - intent: About_basic_course
 - action: utter_basic_course
 
+- story: support
+  steps:
+  - intent: support
+  - action: utter_support
 
+
+- story: specialization
+  steps:
+  - intent: specialization
+  - action: utter_specialization
+
+- story: How many class
+  steps:
+  - intent: How_many_class
+  - action: utter_How_many_class
+
+
+- story: which course
+  steps:
+  - intent: which_course
+  - action: utter_which_course
+
+
+- story: web development
+  steps:
+  - intent: web_development
+  - action: utter_web_development
+
+- story: what programming
+  steps:
+  - intent: what_programming
+  - action: utter_what_programming
+
+
+- story: start teach
+  steps:
+  - intent: start_teach
+  - action: utter_start_teach
 
 - story: vision cky
   steps:
