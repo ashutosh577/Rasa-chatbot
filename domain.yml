@@ -92,7 +92,11 @@ intents:
   - time slot and mentor change
   - discounts
   - fees
-  
+  - ask_super_sessions
+  - ask_course_pack
+  - ask_remove_course
+  - ask_course_query
+  - ask_report
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -349,7 +353,20 @@ responses:
   utter_start_teach:
   - text: "We will be starting from the fundamentals of programming afterwards your child can choose the one he/she wants to opt for"
 
+  utter_ask_report:
+  - text: "Our professional mentors keeps the report of every kid on the basis of assesments and daily hard work of the kid and provide them to parents which motivates them to do more efforts towards coding."
+
+  utter_ask_course_query:
+  - text: "Introduction to every topic is included in starter package which makes the kid to decide the field of their interest and makes them to work best in the same field."
+
+  utter_ask_remove_course:
+  - text: "you can check the course details on our website or contact us on  Phone : +91 8010996763."
   
+  utter_ask_super_sessions:
+  - text: "There are 3 super sessions."
+
+  utter_ask_course_pack:
+  - text: "starter pack is for three months duration where as advance pack is for one year"  
   
 
 
@@ -419,5 +436,9 @@ actions:
 - utter_which_course
 - utter_web_development
 - utter_what_programming
--  utter_start_teach
-
+- utter_start_teach
+- utter_ask_course_pack
+- utter_ask_remove_course
+- utter_ask_report
+- utter_ask_super_sessions
+- utter_ask_course_query
