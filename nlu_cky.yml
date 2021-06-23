@@ -516,6 +516,20 @@ nlu:
       - is it possible to learn python in 10 grade
       - is it possible to learn python in 8 grade
       - is it possible to learn python in 9 grade
+      - Is there any one to one training provided to my child?
+      - Can I get a refund if I want to opt out of course after a some time? 
+      - do you offer course related to php ? 
+      - Do you give homework for self-practice also ?
+      - Does it has a facility of test ? 
+      - Does it is availability of demo classes ?
+      - Will this remote learning be effective?
+      - Is the company reputable?
+      - Is my child interested in the content provided?
+      -  Will it run on my computer?
+      - Do we get feedback on what our children are working on?
+      - ARE CODING COURSES CONTINUING DURING LOCKDOWN?
+      - WILL THE ONLINE CODING CLASSES CONTINUE AFTER LOCKDOWN?
+
 
    
 - intent: word_coding
@@ -1105,9 +1119,50 @@ nlu:
      - What is artist lab?
      - How will you build logic for my kid?
      
-     
+- intent: support
+   examples: |
+      - What kind of support do you offer to students (tech support, teacher's assistant, etc.)?
+      
 
+- intent: specialization
+   examples: |
+      - what all specialization are there?
 
+- intent: How_many_class
+   examples: |
+      - how many classes will be there per week 
+
+- intent: which_course
+   examples: |
+      - What all programming courses does your institution offer?
+      - Which course is available for 5 year old child?
+      - Which course is available for 6 year old child?
+      - Which course is available for 7 year old child?
+      - Which course is available for 8 year old child?
+      - Which course is available for 9 year old child?
+      - Which course is available for 10 year old child?
+      - Which course is available for 11 year old child?
+      - Which course is available for 12 year old child?
+      - Which course is available for 13 year old child?
+      - Which course is available for 14 year old child?
+      - Which course is available for 15 year old child?
+      
+- intent: web_development
+   examples: |
+      - what is Web Development
+      - What is the need for web development?
+
+- intent: what_programming
+   examples: |
+      - What are the programming tools/platforms you use in your classes?
+      - What programs do you use to teach coding?
+      - what all languages do you have in the course
+
+- intent: start_teach
+   examples: |
+      - How should you start teaching programming?
+      - how to decide which coding language to chose?
+      
 intent: vision_cky
   examples: |
     - What are the Visions of your code karo yaaro? 
@@ -1272,8 +1327,5 @@ intent: vision_cky
   intent: how_many
   examples: |
     - How many programs are there in CKY which are helpful for my kid ?
-
-
-
 
     
