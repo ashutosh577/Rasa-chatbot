@@ -97,6 +97,7 @@ intents:
   - ask_remove_course
   - ask_course_query
   - ask_report
+  - About_PHP
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -368,7 +369,8 @@ responses:
   utter_ask_course_pack:
   - text: "starter pack is for three months duration where as advance pack is for one year"  
   
-
+  utter_About_PHP:
+  - text: "PHP is a scripting language used for web development"
 
 
 
@@ -442,3 +444,4 @@ actions:
 - utter_ask_report
 - utter_ask_super_sessions
 - utter_ask_course_query
+- utter_About_PHP
