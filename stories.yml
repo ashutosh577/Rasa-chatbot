@@ -671,7 +671,6 @@ stories:
   - intent:  how_many
   - action: utter_how_many
 
-
 - story: super_sessions
   steps:
   - intent: ask_super_sessions
@@ -682,5 +681,27 @@ stories:
   - intent: ask_course_pack
   - action: utter_ask_course_pack
 
+- story: welcome
+  steps:
+  - intent: welcome_queries
+  - action: utter_welcome_queries
+  
+- story: ratings and reviews
+  - intent: ratings_and_reviews
+  - action: utter_ratings_and_reviews
+  
+- story: about demo class
+  - intent: about_demo_class
+  - action: utter_about_demo_class
+  
+- story: time slot and mentor change
+  - intent: time_slot_and_mentor_change
+  - action: utter_time_slot_and_mentor_change
 
-
+- story: discounts
+  - intent: discounts
+  - action: utter_discounts
+  
+- story: fees
+  - intent: fees
+  - action: utter_fees
