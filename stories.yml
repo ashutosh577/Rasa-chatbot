@@ -29,12 +29,12 @@ stories:
   - intent: deny
   - action: utter_goodbye
  
- - story: ask can I
+- story: ask can I
   steps:
   - intent: Can_I
   - action: utter_Can_I
   
- - story: report
+- story: report
   steps:
   - intent: ask_report
   - action: utter_ask_report
@@ -79,7 +79,7 @@ stories:
   - intent: Interest
   - action: "It depends on the interest of an individual".
 
-story: cky7
+- story: cky7
   steps:
   - intent: Future_Python
   - action: "Python-based tech is driving innovation and new solutions".
@@ -108,8 +108,6 @@ story: cky7
   steps:
   - intent: student_struggling
   - action: utter_student_struggling
-
-stories:
 
 - story: duration
   steps:
@@ -365,155 +363,118 @@ stories:
   - intent: scope_high
   - action: utter_scope_high
   
--story: per_batch_teacher_org
- steps:
- - intent: per_batch_teacher
- - action: utter_per_batch_teacher
+- story: per_batch_teacher_org
+  steps:
+  - intent: per_batch_teacher
+  - action: utter_per_batch_teacher
  
 - story: help_my_kid_org
-steps:
-- intent: help_my_kid
-- action: utter_help_my_kid
+  steps:
+  - intent: help_my_kid
+  - action: utter_help_my_kid
 
 - story: opt_offline_org
-steps:
-- intent: opt_offline
-- action: utter_opt_offline
+  steps:
+  - intent: opt_offline
+  - action: utter_opt_offline
 
 - story: where_certificate_org
-steps:
-- intent: where_certificate
-- action: utter_where_certificate
+  steps:
+  - intent: where_certificate
+  - action: utter_where_certificate
 
 - story: Yes_org
-steps:
-- intent: Yes_
-- action: utter_yes
+  steps:
+  - intent: Yes_
+  - action: utter_yes
 
 - story: word_coding_org
-steps:
-- intent: word_coding
-- action: utter_word_coding
+  steps:
+  - intent: word_coding
+  - action: utter_word_coding
 
 - story: value_added_course_org
-steps:
-- intent: value_added_course
-- action: utter_value_added_course
+  steps:
+  - intent: value_added_course
+  - action: utter_value_added_course
 
 -story: contact_instructor_org
-steps:
-- intent: contact_instructor
-- action: utter_contact_instructor
+  steps:
+  - intent: contact_instructor
+  - action: utter_contact_instructor
 
 - story:
-steps:
-- intent: Python_Scope
-- action: utter_Python_Scope
+  steps:
+  - intent: Python_Scope
+  - action: utter_Python_Scope
 
 - story:
-steps:
-- intent: About_Python
-- action: utter_About_Python
+  steps:
+  - intent: About_Python
+  - action: utter_About_Python
 
 
 - story: about_assignment
-steps:
-- intent: About_assignment
-- action: utter_assignment
+  steps:
+  - intent: About_assignment
+  - action: utter_assignment
 
 - story: About_coding
-steps:
-- intent: About_coding
-- action: utter_coding
+  steps:
+  - intent: About_coding
+  - action: utter_coding
 
 - story: About_feedback
-steps:
-- intent: About_feedback
-- action: utter_feedback
+  steps:
+  - intent: About_feedback
+  - action: utter_feedback
 
 - story: About_trial_classes
-steps:
-- intent: About_trial_classes
-- action: utter_trial_classes
+  steps:
+  - intent: About_trial_classes
+  - action: utter_trial_classes
 
 - story:  About_blockchain
-steps:
-- intent:  About_blockchain
-- action: utter_blockchain
+  steps:
+  - intent:  About_blockchain
+  - action: utter_blockchain
 
 - story: About_subscription
-steps:
-- intent: About_subscription
-- action: utter_subscription
+  steps:
+  - intent: About_subscription
+  - action: utter_subscription
 
 - story: About_intermediate_pack
-steps:
-- intent: About_intermediate_pack
-- action: utter_intermediate
+  steps:
+  - intent: About_intermediate_pack
+  - action: utter_intermediate
 
 - story: About_professional_pack
-steps:
-- intent: About_professional_pack
-- action: utter_professional
+  steps:
+  - intent: About_professional_pack
+  - action: utter_professional
 
 - story: About_starter_pack
-steps:
-- intent: About_starter_pack
-- action: utter_starter
+  steps:
+  - intent: About_starter_pack
+  - action: utter_starter
 
 - story: About_interface
-steps:
-- intent: About_interface
-- action: utter_interface
+  steps:
+  - intent: About_interface
+  - action: utter_interface
 
 - story: About_internet
-steps:
-- intent: About_internet
-- action: utter_internet
+  steps:
+  - intent: About_internet
+  - action: utter_internet
 
 - story: About_basic_course
-steps:
-- intent: About_basic_course
-- action: utter_basic_course
-
-- story: support
   steps:
-  - intent: support
-  - action: utter_support
+  - intent: About_basic_course
+  - action: utter_basic_course
 
 
-- story: specialization
-  steps:
-  - intent: specialization
-  - action: utter_specialization
-
-- story: How many class
-  steps:
-  - intent: How_many_class
-  - action: utter_How_many_class
-
-
-- story: which course
-  steps:
-  - intent: which_course
-  - action: utter_which_course
-
-
-- story: web development
-  steps:
-  - intent: web_development
-  - action: utter_web_development
-
-- story: what programming
-  steps:
-  - intent: what_programming
-  - action: utter_what_programming
-
-
-- story: start teach
-  steps:
-  - intent: start_teach
-  - action: utter_start_teach
 
 - story: vision cky
   steps:
@@ -711,7 +672,15 @@ steps:
   - action: utter_how_many
 
 
-
+- story: super_sessions
+  steps:
+  - intent: ask_super_sessions
+  - action: utter_ask_super_sessions
+  
+- story: super_sessions
+  steps:
+  - intent: ask_course_pack
+  - action: utter_ask_course_pack
 
 
 
