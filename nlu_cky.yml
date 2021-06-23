@@ -106,10 +106,7 @@ nlu:
      - what are the benefits of learning python programming? 
      - what are the different fields in which my ward can excel after learning python? 
      - where is python used?
-
-
-
-
+ 
  -intent: Course_Duration
   examples:  |
     - How much time does it take for someone to become an expert in Machine Learning? 
@@ -118,15 +115,15 @@ nlu:
     - How much time does it take for someone to become an expert in Game Development ? 
 
  -intent: Course_Fee
-  examples:
+  examples:  |
     - what is the price of the overall course ?
  
  -intent: Batch_Size
-  examples:
+  examples:  |
     - How many students are allowed in one batch?
 
 -intent: Course_Info
- examples:
+ examples:  |
    - What course options do you have for older/younger children?
 
 -intent: About_Python
@@ -178,29 +175,29 @@ nlu:
   -Do you  recommend any books for an 8-10 year old kid coding ?
 
 -intents: Programming_Language
- examples: 
+ examples: |
    - What programming languages would be taught?
 
 -intents: Use_of_c++_and_HTML
- examples:
+ examples:  |
    - what are the difference between C++ and html?
 
 -intents: About_HTML
- examples:
+ examples:  |
    - What is HTML?
    - How is html useful?
 
 -intents: HTML_Scope
- examples:
+ examples:  |  
    - what is the future scope of HTML? 
 
 -intents: After_Scratch_Programme
- examples:
+ examples:  |
    - My child already know scratch. What do I do?
 
 
 -intents: choosing_Programming_Language
- examples:
+ examples:  |
    - My son is in 10th standard which programming language is best for him? 
    - my son is in 12th standard, which programming language is the best option for him?  
    - My son is in 9th standard which programming language is best for him? 
@@ -211,31 +208,31 @@ nlu:
 
 
 -intents: Benefit_of_c++_Programming
- examples:
+ examples:  |
    - what are the benefits of learning c++ programming? 
 
 -intents: Scratch_Info
- examples:
+ examples:  |
   - What grade is scratch for?
 
 -intents: Scratch_Programming
- examples:
+ examples:  |
    - How do my kid learn Scratch programming?
 
 -intents: Free_Course
- examples:
+ examples:  |
    - If it is a paid course, does it have a free trial or money back guarantee?
 
 -intents: About_Certification
- examples:
+ examples:  |   
    - Will my child get a certificate?
 
 -intents: About_Scholarship
- examples:
+ examples:  |
    - Do you have a scholarship test?
 
 -intents: About_Refund
- examples:
+ examples:  |
    - If I opt out of a course in the middle of the course due to some reason, do I get a refund?
 
 -intents: About_course_enrollment
@@ -251,27 +248,27 @@ nlu:
    
 
 -intents: About_Batch
- examples:
+ examples:  |
    - can i choose the timing according to my ease?
    - How to change the time slot?
    - How to change the mentor?
    - After enrollment how should i attend classes?
 
 -intents: About_Course
- examples:
+ examples:  |
   - What is the cost of the course?
   
 
 -intents: About_Java_Program
- examples:
+ examples:  |  
   - what are the benefits of learning java programming? 
 
 -intents: About_coding_Benefit
- examples:
+ examples:  |
    - Do these Coding skills help the students for higher study?
 
 -intents: Apply_For_Coding
- examples:
+ examples:  |
     - How can my child apply this coding skill in real life? 
 
 -intents: Coding_Interest
@@ -334,7 +331,6 @@ nlu:
         - With how many companies do you have tie ups?
         - Had tie-up benefitted Codekaro yaro?
         
-  
   - intent : collaboration
       examples: |
         - Do you have any collaboration with schools?
@@ -456,8 +452,7 @@ nlu:
           - If I opt out of a course in the middle of the course due to some reason, do I get a refund?
           - Do you have a scholarship test?
 
-
-          
+       
 - intent: scope_high
     examples:  |
       - What is the need for game app development?
@@ -553,11 +548,6 @@ nlu:
       - Do you use professional languages and tools? 
       - Do you offer support from teachers and engineers? 
 
-
-
-
-
-   
 - intent: word_coding
     examples:  |
       - How to grow a student's interest in word coding ?  
@@ -585,7 +575,6 @@ nlu:
       - How could programming help my 9th standard kid in future?
       - How could programming help my 8th standard kid in future?
 
-        
 - intent: about_app
    examples: |
       - how to use the app?
@@ -860,13 +849,16 @@ nlu:
 - intent: classes_yearly
   examples: |
     -How many classes are there in Yearly course plan?
+    
 - intent: bug
   examples: |
     -What is a bug?
+    
 - intent: monthly_fees
   examples: |
     -What is your monthly fees?
     -what is the fees per month?
+    
 - intent: scratch_age
   examples: |
     -What is correct age to learn scratch?
@@ -877,7 +869,6 @@ nlu:
     -If i enrolled the after which i have to unsubscribe the course , will my money returned or not ?
     -If suppose my child enrolled for this program and not learned well about coding, so can my money will reflected back or not ?
     -What if my kid leave the course, will I get my money back?
-
 
 - intent: html_duration
   examples: |
