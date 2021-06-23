@@ -1327,5 +1327,30 @@ intent: vision_cky
   intent: how_many
   examples: |
     - How many programs are there in CKY which are helpful for my kid ?
+    
+  - intent: ask_super_sessions
+  examples: |
+    - How many super sessions are in intermediate pack for grade 10+? 
+    - How many super sessions are in intermediate pack for grade 1-4?
+    - How many super sessions are in intermediate pack for grade 5-7?
+    - How many super sessions are in intermediate pack for grade 8-10?
+    - How many super sessions are in professional pack for grade 10+?
+    - How many super sessions are in professional pack for grade 1-4?
+    - How many super sessions are in professional pack for grade 5-7?
+    - How many super sessions are in professional pack for grade 8-10?
+    - How many super sessions are in starter pack for grade 10+?
+    - How many super sessions are in starter pack for grade 1-4?
+    - How many super sessions are in starter pack for grade 5-7?
+    - How many super sessions are in starter pack for grade 8-10?
+    - How many super sessions are there in Starter course?
+
+- intent: ask_course_pack
+  examples: |
+    - What does Starter pack for 8th class include?
+    - What does Starter pack for 9th class include?
+    - What does Starter pack for 10th class include?
+    - what is differece between starter and advance pack
+    - what is differece between starter and intermediate pack
+
 
     
