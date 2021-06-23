@@ -135,7 +135,7 @@ nlu:
    - What is Python?
    - Is python the right language for my child?
    -  Why is the Python for Kids a Perfect Programming Language?
-    - Is Python easy to learn?
+   - Is Python easy to learn?
     - why should I consider learning python programming language before machine learning? and not C, C++ or java 
     - How useful is python
     - Why is Python good for kids?
@@ -177,10 +177,6 @@ nlu:
   -Do you  recommend any books for python coding ?
   -Do you  recommend any books for an 8-10 year old kid coding ?
 
--intents: Choosing_Programming_Language
- examples:
-   - My kid has no coding experience, which course should i opt for?
-
 -intents: Programming_Language
  examples: 
    - What programming languages would be taught?
@@ -194,7 +190,7 @@ nlu:
    - What is HTML?
    - How is html useful?
 
--intents: HTML_
+-intents: HTML_Scope
  examples:
    - what is the future scope of HTML? 
 
@@ -211,6 +207,7 @@ nlu:
    - My son is in 8th standard which programming language is best for him? 
    - My kid is in 10th standard, which programming language would help him in his further studies? 
    - which programming language will be good for beginners?
+   - My kid has no coding experience, which course should i opt for?
 
 
 -intents: Benefit_of_c++_Programming
@@ -243,7 +240,15 @@ nlu:
 
 -intents: About_course_enrollment
  examples:
-   - Where do I enroll in courses?
+   - 
+   
+   
+   
+   
+   
+   
+   
+   
 
 -intents: About_Batch
  examples:
@@ -301,6 +306,7 @@ nlu:
      - how to change the time slot?
      - how to change the mentor?
      - can i choose the timing according to my ease?
+     
 
 - intent : discounts
    examples:  |
@@ -437,6 +443,20 @@ nlu:
           - What is the cost for advance Scratch course?
           - What is the cost for advance java course?
           - what are the charges for an professional course in python ?
+          - Is there is optio available for discounting , if yes then how much ?
+          - What is the phone number of CKY?
+          - How can I contact to CKY?
+          - Whom to contact for more information?
+          - Do you have any branch in Bangalore ?
+          - Do you have an EMI option for paying for the course free?
+          - How much amount pay in the monthly EMI ?
+          - Can I get any promo code for discount of course?
+          - Do you have an EMI option for paying for an 8-10 year old course free?
+          - Where do I enroll in courses?
+          - If I opt out of a course in the middle of the course due to some reason, do I get a refund?
+          - Do you have a scholarship test?
+
+
           
 - intent: scope_high
     examples:  |
@@ -516,19 +536,25 @@ nlu:
       - is it possible to learn python in 10 grade
       - is it possible to learn python in 8 grade
       - is it possible to learn python in 9 grade
-      - Is there any one to one training provided to my child?
-      - Can I get a refund if I want to opt out of course after a some time? 
-      - do you offer course related to php ? 
-      - Do you give homework for self-practice also ?
-      - Does it has a facility of test ? 
-      - Does it is availability of demo classes ?
-      - Will this remote learning be effective?
-      - Is the company reputable?
-      - Is my child interested in the content provided?
-      -  Will it run on my computer?
-      - Do we get feedback on what our children are working on?
-      - ARE CODING COURSES CONTINUING DURING LOCKDOWN?
-      - WILL THE ONLINE CODING CLASSES CONTINUE AFTER LOCKDOWN?
+      - Do you provide a certificate after completion ? 
+      - Is financial assistance available for the courses?
+      - Is website development there in the basic course plan?
+      - Is website development there in the starter course plan?
+      - Is website development there in the yearly course plan?
+      - Can I login my account with 2 devices?
+      - Are there any free courses available on your platform? 
+      - I want to learn mobile app development through python Is this possible? 
+      - I want to learn mobile app development through scratch Is this possible? 
+      - I want to learn A.I through java Is this possible? 
+      - I want to learn machine learning through java Is this possible?
+      - I am from hindi medium, Can I learn programming? 
+      - Is game app development there in the yearly course plan?
+      - Is learning python useful for artificial intelligence ?
+      - Do you use professional languages and tools? 
+      - Do you offer support from teachers and engineers? 
+
+
+
 
 
    
@@ -744,7 +770,6 @@ nlu:
         - Can I exclude Web development from starter course for grade 5-7 and get a concession?
         - Can I exclude Web development from intermediate course for grade 5-7 and get a concession?
         - Can I exclude Web development from professional course for grade 5-7 and get a concession?
-        - Can I remove Mobile app development from starter course for grade 10+?
         
 - intent: no_basic_classes
   examples: |
@@ -1119,238 +1144,93 @@ nlu:
      - What is artist lab?
      - How will you build logic for my kid?
      
-- intent: support
-   examples: |
-      - What kind of support do you offer to students (tech support, teacher's assistant, etc.)?
-      
+- intent : About_Mentor
+  examples :  |
+     - Do you have professionally trained teachers? 
+     - Do you have any special teachers for helping student assignments ?
+     
+- intent : Coding_In_Mobile
+  examples :  |
+     - Do you provide a certificate after completion ?   
+     
+- intent : Weekend_Session
+  examples :  |
+     - Do any classes occur on Saturday and sunday?
+     
+- intent : Free_Course
+  examples :  |
+     - Is a demo lecture possible?     
+     
+- intent : Kids_Performance
+  examples :  |
+     - Do I get a report card every week about my kids performance?  
+     
+- intent : Doubt_Class
+  examples :  |
+     - Do you also have a doubt class in your curriculum?      
+     
+- intent : Python_Language
+  examples :  |
+     - It will be Possible for my child to learn python even he don't  know the basics of  C , C++ , java ?
 
-- intent: specialization
-   examples: |
-      - what all specialization are there?
-
-- intent: How_many_class
-   examples: |
-      - how many classes will be there per week 
-
-- intent: which_course
-   examples: |
-      - What all programming courses does your institution offer?
-      - Which course is available for 5 year old child?
-      - Which course is available for 6 year old child?
-      - Which course is available for 7 year old child?
-      - Which course is available for 8 year old child?
-      - Which course is available for 9 year old child?
-      - Which course is available for 10 year old child?
-      - Which course is available for 11 year old child?
-      - Which course is available for 12 year old child?
-      - Which course is available for 13 year old child?
-      - Which course is available for 14 year old child?
-      - Which course is available for 15 year old child?
-      
-- intent: web_development
-   examples: |
-      - what is Web Development
-      - What is the need for web development?
-
-- intent: what_programming
-   examples: |
-      - What are the programming tools/platforms you use in your classes?
-      - What programs do you use to teach coding?
-      - what all languages do you have in the course
-
-- intent: start_teach
-   examples: |
-      - How should you start teaching programming?
-      - how to decide which coding language to chose?
-      
-intent: vision_cky
-  examples: |
-    - What are the Visions of your code karo yaaro? 
-    - Are you a "Jack of All trades" company or do you focus only on coding for kids?
-    - Why should I choose codeKaroYaro for my kid?
-
-  intent: level_up
-  examples: |
-    - what is the level of python in 8 grade ?
-    - what is the level of python in 9 grade ?
-    - what is the level of python in 10  grade ?
-
-  intent: suitable
-  examples: |
-    - Which programming language is suitable for my child to learn?
-    - How Many Topic Areas Will You Teach?
-
-  intent: Book_procedure_platform
-  examples: |
-    - How can we book free trial session?
-    - what is the procedure of registration?
-    - What services does your platform provide?
-
-  intent: rating_across_platform
-  examples: |
-    - what is your rating ?
-    - what makes you different from others ?
-
-  intent: Python_easy
-  examples: |
-    - How is Python programming language better for my kid?
-
-  intent: first_grade_python
-  examples: |
-    - my child is in first grade does he have to learn code
-
-  intent: tenth_standard
-  examples: |
-    - how much time does it take for a 10th standard kid to become a full stack developer?
-
-  intent: computer_games
-  examples: |
-    - why are classes based on computer games?
-
-  intent: hours_time_table
-  examples: |
-    - How many hours do you take classes every day?
-
-  intent: difficut_to_learn
-  examples: |
-    - Is Python Programming for Kids Difficult to Learn?
-
-  intent: contact_please
-  examples: |
-    - any contacts details for further guide
-    - Which is the latest version of scratch?
-
-  intent: encourage_engage
-  examples: |
-    - My child has no interest in coding. How can I engage and encourage him?
-
-  intent: boring_for_kids
-  examples: |
-    - Is coding boring? Will my kid enjoy it?
-
-  intent: application_python
-  examples: |
-    - applications of python?
-
-  intent: payment_mode
-  examples: |
-    - What are payment mode available in your site for purchasing course ?
-
-  intent: expiry_date
-  examples: |
-    - WHERE CAN I FIND THE EXPIRATION DATE FOR MY SUBSCRIPTION?
-
-  intent: way_of
-  examples: |
-    - Do they teach using visual block coding or text-based languages?
-
-  intent: too_complex
-  examples: |
-    - Isn't programming too complex for kids?
-
-  intent: List_courses
-  examples: |
-    - Show me the list of courses available
-
-  intent: weaker_economic
-  examples: |
-    - do I get a discount, if I belong to weaker economic section?
-
-  intent: extension_plans
-  examples: |
-    - Do you have any extension plans in your institution? 
-
-  intent: curriculam
-  examples: |
-    - How did you develop your curriculum?
-
-  intent: content
-  examples: |
-    - What would be contents of python progrmaming course?
-
-  intent: branch
-  examples: |
-    - where is your primary office in India ?
-
-  intent: cost_mobile_development
-  examples: |
-    - what is the cost of mobile app development course?
-
-  intent: cost_web
-  examples: |
-    - what is the cost of web development course for a year?
-
-  intent: cky_maha
-  examples: |
-    - CKY's office in maharashtra?
-
-  intent: linux_course
-  examples: |
-    - do you offer courses in linux as well?
-
-  intent: higher_grades
-  examples: |
-    - Do you offer coding classes for higher grades ?
-
-  intent: courses_current
-  examples: |
-    - How many types of courses are currently available on your platfrom?
-
-  intent: old_kid
-  examples: |
-    - How old my child must be to learn coding ?
-
-  intent: online_offline
-  examples: |
-    - CKY teaches programming in offline classes or through online classes  ?
-
-  intent: ways_cky
-  examples: |
-    - what are the best available ways to learn programming at your institute?
-
-  intent: qualified
-  examples: |
-    - How many qualified teachers do you have for coding course?
-
-  intent: suggest_kid
-  examples: |
-    - My kid is new to programming, suggest entry level course for him?
-
-  intent: group_person
-  examples: |
-    - Do you offer group classes or private classes?
-
-  intent: suggest_daughter
-  examples: |
-    - My daughter is in 12th standard and she wants to be a data scientists. Please suggest a course best suited for her.
-
-  intent: how_many
-  examples: |
-    - How many programs are there in CKY which are helpful for my kid ?
-    
-  - intent: ask_super_sessions
-  examples: |
-    - How many super sessions are in intermediate pack for grade 10+? 
-    - How many super sessions are in intermediate pack for grade 1-4?
-    - How many super sessions are in intermediate pack for grade 5-7?
-    - How many super sessions are in intermediate pack for grade 8-10?
-    - How many super sessions are in professional pack for grade 10+?
-    - How many super sessions are in professional pack for grade 1-4?
-    - How many super sessions are in professional pack for grade 5-7?
-    - How many super sessions are in professional pack for grade 8-10?
-    - How many super sessions are in starter pack for grade 10+?
-    - How many super sessions are in starter pack for grade 1-4?
-    - How many super sessions are in starter pack for grade 5-7?
-    - How many super sessions are in starter pack for grade 8-10?
-    - How many super sessions are there in Starter course?
-
-- intent: ask_course_pack
-  examples: |
-    - What does Starter pack for 8th class include?
-    - What does Starter pack for 9th class include?
-    - What does Starter pack for 10th class include?
-    - what is differece between starter and advance pack
-    - what is differece between starter and intermediate pack
+- intent : Enrolling_Process
+  examples :  |
+     - Can you please help me to enroll an 8-10 year old kid? 
+     
+- intent : Python_Use_In_Web Dev
+  examples :  |
+     - Is learning python useful for web developement    
+     
+- intent : Attend_Classes
+  examples :  |
+     - Can i attend classes from village?     
+     
+- intent : Home_Tutor
+  examples :  |
+     - Is cky provides teachers at home? 
+     
+- intent : Doubt_Class_Frequency
+  examples :  |
+     - What is the frequency of doubt classes?      
+     
+- intent : Doubt_Class_Time
+  examples :  |
+     - how to register for a doubt class?      
+     
+- intent : CKY_Website
+  examples :  |
+     - What is the website of CKY,, if I had any query regarding courses?  
+     
+- intent : CKY_Reviews
+  examples :  |
+     - what are reviews of students
+     
+- intent : Trial_Course
+  examples :  |
+     - Which courses can i access as part of my trial?     
+     
+- intent : Fees_Comparison
+  examples :  |
+     - You can compare the fees with other platforms and find the proper result. 
+     
+- intent : Technical_Issue_During_Class
+  examples :  |
+     - what if electricity in our locality is down?
+     - what if internet connection in our locality is down
+     - what if my child is sick on session day
+     - what if my electricity shuts down while i am in middle of class
+     - what if my data finishes while i am in middle of class
+     - what if my camera stops working in middle of class
+     - what if my microphone stops working in middle of class
+     - what if my microphone stops working in middle of class
+     
+     
+     
+     
+     
+     
 
 
     
+     
+  
