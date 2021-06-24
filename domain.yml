@@ -149,7 +149,7 @@ responses:
 
 
   utter_contact:
-  - text: "Contact  at. +91 8010996763 or https://www.codekaroyaaro.com/ to know about this. "
+  - text: "Contact  at. +91 8010996763 or https://www.codekaroyaaro.com/ to know more about this. "
   
 
   utter_about_app:
@@ -441,12 +441,16 @@ responses:
   - text: "You can check our website https://codekaroyaaro.com/."
   utter_Doubt_class_Time:
   - text: "You can ask doubt to your respective mentor and they will resolve it within 24 hours."
+  
   utter_Doubt_Class_Frequency:
   - text: "You can ask doubt to your respective academic mentor during live classes."
+  
   utter_Home_Tutor:
   - text: "You can access our live classes from anywhere you would like to."
+  
   utter_Class_From_Village:
   - text: "Yes,you only require internet connection to attend our classes."
+  
   utter_Python_Use_In_Web Dev:
   - text: "Yes,Web development using Python has been very popular for years."
 
@@ -550,3 +554,18 @@ actions:
 - utter_costing
 - utter_single_courses
 - utter_skills_scratch
+- utter_workshop
+- utter_tie_up
+- utter_collaboration
+- utter_carrer
+- utter_scope_high
+- utter_per_batch_teacher
+- utter_help_my_kid
+- utter_opt_offline
+- utter_where_certificate
+- utter_yes
+- utter_word_coding
+- utter_value_added_course
+- utter_contact_instructor
+- utter_Python_Scope
+- utter_About_Python
