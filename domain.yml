@@ -97,6 +97,25 @@ intents:
   - ask_remove_course
   - ask_course_query
   - ask_report
+  - fees_1
+  - fees_2
+  - fees_3
+  - fees_4
+  - fees_5
+  - fees_6
+  - fees_7
+  - what_scratch
+  - ben_scratch
+  - 5_coding_lang
+  - contact
+  - algo
+  - daughter
+  - pre_prof
+  - pre_inter
+  - change_tutor
+  - costing
+  - single_courses
+  - skills_scratch
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -368,6 +387,48 @@ responses:
   utter_ask_course_pack:
   - text: "starter pack is for three months duration where as advance pack is for one year"  
   
+    utter_fees_1:
+  - text: "Rs 12,000, where we provide other languages as well."
+    
+  utter_fees_2:
+  - text: "Rs 15360"
+  utter_fees_3:
+  - text: "Rs 26880"
+  utter_fees_4:
+  - text: "Rs 2800"
+  utter_fees_5:
+  - text: "Rs 4,500, where we provide other languages as well."
+  utter_fees_6:
+  - text: "Rs 8,000, where we provide other languages as well."
+  utter_fees_7:
+  - text: "Rs 4,000."
+  utter_what_scratch:
+  - text: "Scratch enables students to create projects that express their ideas. ... With Scratch, young people can learn how to use coding to bring their ideas to life.Scratch is a programming language ,With Scratch you can program your own interactive stories, games, and animations. Learn more at our official website https://www.codekaroyaaro.com/"
+  utter_ben_scratch:
+  - text: "Scratch is fun and creative, builds logic and analytical skills, easy to grasp, highly accessible and so on."
+  utter_5_coding_lang:
+  - text: "Scratch, python , c, c++,html"
+  utter_contact:
+  - text: "Send an email about it at info@codekaroyaaro.com"
+  utter_algo:
+  - text: "Send an email about it at info@codekaroyaaro.com"
+  utter_daughter:
+  - text: "She can opt for C++, C, Java or Python."
+  utter_pre_prof:
+  - text: "should have intermediate level knowledge."
+  utter_pre_inter:
+  - text: "should have starter knowledge."
+
+  utter_change_tutor:
+  - text: "since there is availibilty of many teachers you can discuss it."
+  utter_costing:
+  - text: "So basically we have basic, starter and yearly plan at different price range, for that have a look at our site."
+  utter_single_courses:
+  - text: "Sorry, we dont teach single course."
+  utter_skills_scratch:
+  - text: "Social skills and Helps children become fluent with technologies."
+
+  
 
 
 
@@ -442,3 +503,22 @@ actions:
 - utter_ask_report
 - utter_ask_super_sessions
 - utter_ask_course_query
+- utter_fees_1
+- utter_fees_2
+- utter_fees_3
+- utter_fees_4
+- utter_fees_5
+- utter_fees_6
+- utter_fees_7
+- utter_what_scratch
+- utter_ben_scratch
+- utter_5_coding_lang
+- utter_contact
+- utter_algo
+- utter_daughter
+- utter_pre_prof
+- utter_pre_inter
+- utter_change_tutor
+- utter_costing
+- utter_single_courses
+- utter_skills_scratch
