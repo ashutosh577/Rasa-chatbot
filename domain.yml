@@ -116,6 +116,8 @@ intents:
   - costing
   - single_courses
   - skills_scratch
+  - Technical_Issue
+  - Fees_Comparison
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -427,8 +429,34 @@ responses:
   - text: "Sorry, we dont teach single course."
   utter_skills_scratch:
   - text: "Social skills and Helps children become fluent with technologies."
+  utter_Technical_Issue:
+  - text: "you can discuss with tutor  and reschedule class." 
+  utter_Fees_Scratch:
+  - text: "You can compare the fees with other platforms and find the proper result."
+  utter_Trial_Course:
+  - text: "You can choose any available starter course."
+  utter_CKY_Reviews:
+  - text: "You can check student reviews about us on our official website. Also you can check on quora or you can visit our YouTube channel to know more."
+  utter_CKY_Website:
+  - text: "You can check our website https://codekaroyaaro.com/."
+  utter_Doubt_class_Time:
+  - text: "You can ask doubt to your respective mentor and they will resolve it within 24 hours."
+  utter_Doubt_Class_Frequency:
+  - text: "You can ask doubt to your respective academic mentor during live classes."
+  utter_Home_Tutor:
+  - text: "You can access our live classes from anywhere you would like to."
+  utter_Class_From_Village:
+  - text: "Yes,you only require internet connection to attend our classes."
+  utter_Python_Use_In_Web Dev:
+  - text: "Yes,Web development using Python has been very popular for years."
 
-  
+
+
+
+
+
+
+
 
 
 
