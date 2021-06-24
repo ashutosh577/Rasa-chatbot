@@ -1215,7 +1215,121 @@ nlu:
      - what if my microphone stops working in middle of class
      - what if my microphone stops working in middle of class
      
-     
+- intent: fees_1
+  examples: |
+    - What is cost for 12 months Scratch course?
+    - What is the cost for advance Scratch course?
+    - What is the cost for advance java course?
+    - what are the charges for an professional course in python ?
+    - what are the charges for an professional course in scratch ?
+    - What is cost for 12 months java course?
+    - What is cost of Advanced pack?
+
+
+    
+- intent: fees_2
+  examples: |
+    - What is cost for 6 months mobile application course?
+    - What is price of live class at intermediate level?
+
+
+- intent: fees_3
+  examples: |
+    - What is cost for 12 months course?
+    - What is price of live class at advanced level?
+
+
+- intent: fees_4
+  examples: |
+    - What is cost for 3 months mobile application course?
+    - What is price of live class at basic level?
+
+
+- intent: fees_5
+  examples: |
+    - What is the cost for 3 months Scratch course?
+    - What is the cost for beginner Scratch course?
+    - what are the charges for a starter course in python ?
+    - What is the cost for 3 months html course?
+    - What is the cost for beginner java course?
+    - What is the cost for 3 months java course?
+    - What is cost of Starter pack?
+
+
+
+- intent: fees_6
+  examples: |
+    - what is the cost of intermediate java course? 
+    - what are the charges for an intermediate course in python ?
+    - what are the charges for an intermediate course in scratch ?
+    - What is cost for 6 months Scratch course?
+    - What is the cost for intermediate Scratch course?
+    - What is cost for 6 months java course?
+    - What is cost of Intermediate pack?
+
+
+- intent: fees_7
+  examples: |
+    - what are the charges for a starter course in scratch ?
+
+- intent: what_scratch
+  examples: |
+    - How useful is scratch
+    - Is Scratch real coding?
+    - What is Scratch in python?
+    - What is scratch programming?
+    - which the best language that my kid can learn easily? 
+
+
+- intent: ben_scratch
+  examples: |
+    - what are the benefits of learning scratch programming? 
+
+- intent: 5_coding_lang
+  examples: |
+    - Top 5 coding languages for kids?
+
+- intent: contact
+  examples: |
+    - I am unable to call to the mentor. Please call me back as I want to change the Class of academic year.
+
+- intent: algo
+  examples: |
+    - What is an algorithm?
+
+- intent: daughter
+  examples: |
+    - My daughter is in 8th standard which programming language is best for her? 
+    - My daughter is in 9th standard which programming language is best for her? 
+    - My daughter is in 10th standard which programming language is best for her? 
+    - my daughter is in 12th standard, which programming language is the best option for her?  
+
+
+- intent: pre_prof
+  examples: |
+    - What are prerequisites for Professional Course?
+    
+- intent: preq_inter
+  examples: |
+    - What does the kid needs to for Intermediate Course?
+
+- intent: change_tutor
+  examples: |
+    - can we change tutor in between
+
+- intent: costing
+  examples: |
+    - What is the cost of all the course?
+
+- intent: skills_scratch
+  examples: |
+    - What skills does scratch teach?
+
+- intent: single_courses
+  examples: |
+    - Can i only opt for Game app development in the course?
+    - Can i only opt for Artificial Intelligence in the course?
+    - Can i only opt for Mobile app development in the course? 
      
      
      
