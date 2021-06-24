@@ -127,6 +127,113 @@ nlu:
     - How useful is python
     - Why is Python good for kids?
    
+-intent: Basic_Course_Content
+ examples:  |
+   - What is given in Basic course?
+   - What is given in Starter course?
+
+-intent: About_Intermediate_and_Advance_Course
+ examples:  |
+   - what is differece between advance  and intermediate pack?
+
+-intent: About_Intermediate_and_Professional_Course
+ examples:  |
+   - What's the difference between Intermediate and Professional course?
+
+-intent: Course-Package
+ examples:   |
+   - what are you going to teach in scratch programming for Grade 1-4  in starter package? 
+   - What does intermediate pack for 8th class include?
+   - What does intermediate pack for 9th class include?
+   - What does intermediate pack for 10th class include?
+
+
+-intents: Live_Session
+ examples:  |
+  -What are the live interactive sessions?
+
+-intents: Course_Transfer
+ examples:  |
+  -is it okay if my child want to switch courses in between?
+  -I want my kid to transfer from mobile app development to A.I course, is this possible? 
+
+-intents: Study_Materials
+ examples:  |
+  -Do you  recommend any books for python coding ?
+  -Do you  recommend any books for an 8-10 year old kid coding ?
+
+-intents: Programming_Language
+ examples: |
+   - What programming languages would be taught?
+
+-intents: Use_of_c++_and_HTML
+ examples:  |
+   - what are the difference between C++ and html?
+
+-intents: About_HTML
+ examples:  |
+   - What is HTML?
+   - How is html useful?
+
+-intents: HTML_Scope
+ examples:  |  
+   - what is the future scope of HTML? 
+
+-intents: After_Scratch_Programme
+ examples:  |
+   - My child already know scratch. What do I do?
+
+
+-intents: choosing_Programming_Language
+ examples:  |
+   - My son is in 10th standard which programming language is best for him? 
+   - my son is in 12th standard, which programming language is the best option for him?  
+   - My son is in 9th standard which programming language is best for him? 
+   - My son is in 8th standard which programming language is best for him? 
+   - My kid is in 10th standard, which programming language would help him in his further studies? 
+   - which programming language will be good for beginners?
+   - My kid has no coding experience, which course should i opt for?
+
+
+-intents: Benefit_of_c++_Programming
+ examples:  |
+   - what are the benefits of learning c++ programming? 
+
+-intents: Scratch_Info
+ examples:  |
+  - What grade is scratch for?
+
+-intents: Scratch_Programming
+ examples:  |
+   - How do my kid learn Scratch programming?
+
+-intents: Free_Course
+ examples:  |
+   - If it is a paid course, does it have a free trial or money back guarantee?
+
+-intents: About_Certification
+ examples:  |   
+   - Will my child get a certificate?
+
+-intents: About_Scholarship
+ examples:  |
+   - Do you have a scholarship test?
+
+-intents: About_Refund
+ examples:  |
+   - If I opt out of a course in the middle of the course due to some reason, do I get a refund?
+  
+-intents: About_Batch
+ examples:  |
+   - can i choose the timing according to my ease?
+   - How to change the time slot?
+   - How to change the mentor?
+   - After enrollment how should i attend classes?
+
+-intents: About_Course
+ examples:  |
+  - What is the cost of the course?
+  
 - intent: Basic_Course_Content
   examples:  |
     - What is given in Basic course?
@@ -200,18 +307,7 @@ nlu:
 - intents: About_Refund
   examples:  |
     - If I opt out of a course in the middle of the course due to some reason, do I get a refund?
-- intents: About_course_enrollment
-  examples:
-    - 
-   
-   
-   
-   
-   
-   
-   
-   
-
+    
 - intents: About_Batch
   examples:  |
     - can i choose the timing according to my ease?
@@ -719,6 +815,7 @@ nlu:
   examples: |
     -why should I choose codeKaroYaro? 
     - How is this distinct from other online programs ?
+
 - intent: expirience
   examples: |
     -What is the experience of the faculty members of CKY?
