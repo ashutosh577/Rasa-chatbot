@@ -234,19 +234,7 @@ nlu:
 -intents: About_Refund
  examples:  |
    - If I opt out of a course in the middle of the course due to some reason, do I get a refund?
-
--intents: About_course_enrollment
- examples:
-   - 
-   
-   
-   
-   
-   
-   
-   
-   
-
+  
 -intents: About_Batch
  examples:  |
    - can i choose the timing according to my ease?
@@ -770,7 +758,7 @@ nlu:
     - How is this distinct from other online programs ?
 
 
-- intent: expirience
+- intent: experience
   examples: |
     -What is the experience of the faculty members of CKY?
     
