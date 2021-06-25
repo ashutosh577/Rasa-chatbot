@@ -119,6 +119,38 @@ intents:
   - Technical_Issue
   - Fees_Comparison
   - About_PHP
+  - About_Mentor
+  - Coding_In_Mobile
+  - Weekend_Session
+  - Free_Course
+  - Kids_Performance
+  - Doubt_Class
+  - Python_Language
+  - Enrolling_Process
+  - About_Refund
+  - About_Batch
+  - About_Course
+  - About_Java_Program
+  - coding_Benefit
+  - Apply_For_Coding
+  - Coding_Interest
+  - Scratch_Programming
+  - Course_Fee
+  - Course_Info
+  - Python_Language
+  - Basic_Course_Content
+  - Intermediate_and_Advance_Course
+  - Intermediate_and_Professional_Course
+  - Live_Session
+  - Study_Materials
+  - Programming_Language
+  - Use_of_c++_and_HTML
+  - About_HTML
+  - HTML_Scope
+  - After_Scratch_Programme
+  - choosing_Programming_Language
+  - Benefit_of_c++_Programming
+
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -151,7 +183,7 @@ responses:
   - text: "PHP is a scripting language used for web development"
 
   utter_contact:
-  - text: "Contact  at. +91 8010996763 or https://www.codekaroyaaro.com/ to know more about this. "
+  - text: "Contact  at. +91 8010996763 or https://www.codekaroyaaro.com/ to know about this. "
   
 
   utter_about_app:
@@ -431,38 +463,104 @@ responses:
   - text: "Sorry, we dont teach single course."
   utter_skills_scratch:
   - text: "Social skills and Helps children become fluent with technologies."
-  utter_Technical_Issue:
-  - text: "you can discuss with tutor  and reschedule class." 
-  utter_Fees_Scratch:
-  - text: "You can compare the fees with other platforms and find the proper result."
-  utter_Trial_Course:
-  - text: "You can choose any available starter course."
-  utter_CKY_Reviews:
-  - text: "You can check student reviews about us on our official website. Also you can check on quora or you can visit our YouTube channel to know more."
-  utter_CKY_Website:
-  - text: "You can check our website https://codekaroyaaro.com/."
-  utter_Doubt_class_Time:
-  - text: "You can ask doubt to your respective mentor and they will resolve it within 24 hours."
+  utter_Enrolling_Process:
+  - text: "yes,the enrolling process is quite easy. You just need to click on the selected course and fill the required details."
+  utter_Python_Language:
+  - text: "Yes,Python is an open source programming language, and you can easily learn it."
+  utter_Doubt_Class:
+  - text: "Yes, your academic mentor will solve your doubts accordingly."
+  utter_Kids_Performance:
+  - text: "Yes, you can talk to academic mentor about your chil's performance."
+  utter_Free_Course:
+  - text: "Yes, you can have a free trial session."
+  utter_Coding_In_Mobile:
+  - text: "Yes, we provide our coding platform on mobile phone also."
+  utter_About_Mentor:
+  - text: "Yes, we provide best teachers."
+  utter_Coding_Interest:
+  - text: "Encourage your Kids to 'Think' like a Programmer, It's Never too Early to Introduce Coding, Free Programs and Tools to Get Kids Interested in Coding."
+  utter_Apply_For_Coding:
+  - text: "Every modern thing you can see around is however connected to the coding from the remote of your TV to your android Television and mobiles."
+  utter_Coding_Benefit:
+  - text: "Every thing we learn will helps us anyhow same for the coding, coding never gets old and it motivates them to learn more in the vast world of coding."
+  utter_Java_Programming:
+  - text: "Finds use in real world applications, universal usage, lots of job opportunities, powerful development tools and so on."
+  utter_About_Course:
+  - text: "First choose the course."
+  utter_About_Batch:
+  - text: "For changing of Batch Timing or Mentor you need to contact your dedicated Academic Mentor."
+  utter_Scratch_Programming:
+  - text: "get enrolled in our CKY for skilled based and quality learning in programming."
+  utter_Benefit_Of_C++:
+  - text: "Has abundant library support, has a large community, is portable, in graphics, in embedded system and so on."
+  utter_Choosing_Programming:
+  - text: "He can opt for C++, C, Java or Python."
+  utter_After_Scratch:
+  - text: "Help him get professional skills in scratch by enrolling to our website."
+  utter_HTML_Scope:
+  - text: "HTML continues to be a useful content expression language that powers Web growth."
+  utter_HTML:
+  - text: "HTML is a Hyper Text Markup Language used for designing web pages."
+  utter_C++_HTML_Use:
+  - text: "HTML is used to create webpage while C++ is used to create application."
+  utter_Programming_Language:
+  - text: "Html, Java and python programming."
+  utter_Study_Material:
+  - text: "If you join our courses, we provide you with our certified notes and study material. We think that books are tough for the kids to understand."
+  utter_Live_Session:
+  - text: "In live sessions, students can interact with the mentor live instead of recorded lacture."
+  utter_Intermediate_And_Advance_Course:
+  - text: "intermediate pack is for six months duration where as advance pack is for one year."
+  utter_Intermediate_And_Professional_Course:
+  - text: "Intermediate is one step lower than professional level."
+  utter_Course_Content:
+  - text: "Introduction to Programming Languages Game App + Mobile App + Website."
+  utter_Python_Language:
+  - text: "Yes,Python is an open source programming language, and you can easily learn it."
+  utter_Course_Info:
+  - text: "It depends on in which grade your kid is. For each Grade we offer 3 types of courses - starter, intermediate and professional."
+  utter_Course_Fee:
+  - text: "It depends on the course you choose,for starter package it costs 4,500,for intermediate package it costs 8,000,for professional package it costs 12,000."
+  utter_Course_Duration:
+  - text: "It depends on your hard work, daily practices."
+  utter_Coding_Future:
+  - text: "It helps to have various opportunities in IT sector."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
   
-  utter_Doubt_Class_Frequency:
-  - text: "You can ask doubt to your respective academic mentor during live classes."
-  
-  utter_Home_Tutor:
-  - text: "You can access our live classes from anywhere you would like to."
-  
-  utter_Class_From_Village:
-  - text: "Yes,you only require internet connection to attend our classes."
-  
-  utter_Python_Use_In_Web Dev:
-  - text: "Yes,Web development using Python has been very popular for years."
-
-
-
-
-
-
-
-
 
 
 
