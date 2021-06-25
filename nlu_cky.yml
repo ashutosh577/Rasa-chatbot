@@ -99,7 +99,8 @@ nlu:
     - what are the benefits of learning python programming? 
     - what are the different fields in which my ward can excel after learning python? 
     - where is python used?
- 
+    - which language has wide scope
+
  -intent: Course_Duration
   examples: |
     - How much time does it take for someone to become an expert in Machine Learning? 
@@ -126,7 +127,8 @@ nlu:
     - why should I consider learning python programming language before machine learning? and not C, C++ or java 
     - How useful is python
     - Why is Python good for kids?
-   
+    - How is python used for designing mobile application?
+
 -intent: Basic_Course_Content
  examples:  |
    - What is given in Basic course?
@@ -503,7 +505,9 @@ nlu:
     - Where do I enroll in courses?
     - If I opt out of a course in the middle of the course due to some reason, do I get a refund?
     - Do you have a scholarship test?
-              
+    - How Python for Kids Promotes Algorithmic Thinking in Students?
+    - which programming language you should prefer for beginner?
+ 
 - intent: scope_high
   examples:  |
     - What is the need for game app development?
@@ -815,6 +819,7 @@ nlu:
   examples: |
     -why should I choose codeKaroYaro? 
     - How is this distinct from other online programs ?
+    - How is CKY better than other platforms?
 
 - intent: expirience
   examples: |
@@ -1345,3 +1350,6 @@ nlu:
      - tell me about nlp in detail?
      - can we use nlp in real life?
 
+ - intent : About_PHP
+   examples: |
+    - What is PHP language?
