@@ -118,6 +118,7 @@ intents:
   - skills_scratch
   - Technical_Issue
   - Fees_Comparison
+  - About_PHP
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -146,7 +147,8 @@ responses:
   - text: "Coding teaches  logical reasoning, critical thinking, and most importantly helps us to solve problems by creating software that makes life easier for people."
   
   
-
+  utter_About_PHP:
+  - text: "PHP is a scripting language used for web development"
 
   utter_contact:
   - text: "Contact  at. +91 8010996763 or https://www.codekaroyaaro.com/ to know more about this. "
@@ -569,3 +571,4 @@ actions:
 - utter_contact_instructor
 - utter_Python_Scope
 - utter_About_Python
+- utter_About_PHP
