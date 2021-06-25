@@ -49,6 +49,12 @@ stories:
   - intent: ask_remove_course
   - action: utter_ask_remove_course
   
+  
+- story: PHP
+  steps: 
+  - intent: About_PHP
+  - action: utter_About_PHP
+  
 - story: cky1_course_related 
   steps:
   - intent: Course_related
